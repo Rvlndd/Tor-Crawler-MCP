@@ -27,4 +27,4 @@ tor.exe
 
 
 
-This project is licensed under the MIT License — see the [LICENSE](https://github.com/Rvlndd/Tor-Crawler-MCP/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License, see the [LICENSE](https://github.com/Rvlndd/Tor-Crawler-MCP/blob/main/LICENSE) file for details.
