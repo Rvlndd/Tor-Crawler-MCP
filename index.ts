@@ -21,7 +21,6 @@ function extractMarkdown(body: string): string {
     const title = $('title').first().text().trim() || 'Untitled Page';
     let markdown = `# ${title}\n\n`;
     
-    // Get all visible text from body
     const bodyText = $('body').text()
         .split('\n')
         .map(line => line.trim())
@@ -30,7 +29,6 @@ function extractMarkdown(body: string): string {
     
     markdown += bodyText + '\n\n';
     
-    // Links section
     const links: string[] = [];
     $('a[href]').each((_, el) => {
         const href = $(el).attr('href');
